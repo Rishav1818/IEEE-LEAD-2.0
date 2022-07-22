@@ -9,7 +9,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/purple1.gif") top right no-repeat;
+  background: #040404 url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09f85f35-b22f-47b4-8b15-3b39f59e04a3/d6gj8co-3ec4c77d-baf1-4836-9d36-5bbc88f6b979.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA5Zjg1ZjM1LWIyMmYtNDdiNC04YjE1LTNiMzlmNTllMDRhM1wvZDZnajhjby0zZWM0Yzc3ZC1iYWYxLTQ4MzYtOWQzNi01YmJjODhmNmI5NzkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bzbg4ehyxOv21oKSl3UqxL0KlaMubJM1cw3qc2uVYmM") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 6px;
 }
 #tagline {
-  font-size: small;
+  font-size: medium;
 }
 #header img {
   padding: 0;
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px) {
   #header h1 {
-    font-size: 36px;
+    font-size: 48px;
   }
   #header h2 {
     font-size: 20px;
@@ -148,9 +148,9 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   position: relative;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .nav-menu a:before {
